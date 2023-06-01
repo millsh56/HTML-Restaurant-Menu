@@ -11,10 +11,20 @@ h2 {
     color: darkred;
 }
 
-h3, 
+h3,
 p,
 li {
     color: green;
+}
+
+.Onpage {
+    color: blueviolet
+}
+
+.holiday-update {
+    display: flex;
+    width: 100%;
+    background-color: lawngreen;
 }
 
 img {
@@ -30,6 +40,7 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -63,8 +74,22 @@ nav a:hover {
     height: auto;
 }
 
+#resturant-tables {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.origin {
+    display: inline-block;
+    text-align: center;
+}
+
 .service {
     display: inline-block;
+    text-align: center;
     background-color: white;
     border: 5px solid green;
     border-radius: 5px;
@@ -74,13 +99,29 @@ nav a:hover {
     margin: 10px;
 }
 
+.fa fa-phone {
+    display: inline
+}
+
+.fa fa-address-card {
+    display: inline
+}
+
+.fa fa-envelope-o {
+    display: inline
+}
+
 table {
     border: 3px solid black;
     width: 100%;
 }
-  
+
 td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+.footer {
+    color: green;
 }
